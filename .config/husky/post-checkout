@@ -1,0 +1,2 @@
+#!/bin/sh
+node .config/husky/reject-worktree-rebind.mjs "$1" "$2" "$3"
