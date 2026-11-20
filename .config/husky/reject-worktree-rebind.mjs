@@ -82,7 +82,7 @@ if (bound === null) {
         "branch this worktree was on. If it is legitimately this worktree's own",
         'branch, record the binding with:',
         '',
-        '  node .husky/reject-worktree-rebind.mjs --bind-only',
+        '  node .config/husky/reject-worktree-rebind.mjs --bind-only',
         '',
         'A human can instead re-run the checkout with PNPM_ALLOW_WORKTREE_REBIND=1.',
       ].join('\n')

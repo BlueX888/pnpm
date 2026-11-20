@@ -468,7 +468,7 @@ wants to rebind a worktree can re-run with `PNPM_ALLOW_WORKTREE_REBIND=1`.
 
 Remember that hooks are installed per worktree: a fresh worktree has no
 active hooks (including this guard) until `pnpm install` or
-`pnpm exec husky` runs in it — see
+`pnpm exec husky .config/husky` runs in it — see
 [Install the git hooks before committing](#install-the-git-hooks-before-committing).
 
 ## Working with GitHub PRs, Issues, and Comments
